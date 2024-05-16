@@ -15,6 +15,8 @@ helm install metallb metallb/metallb
 
 # Installation with Manifests
 
+NOTE : If using manifests , then create ns first. namespace: metallb-system
+
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.14.5/config/manifests/metallb-native.yaml
 ```
